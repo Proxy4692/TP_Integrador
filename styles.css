@@ -1,6 +1,6 @@
 body{
     font-family: 'Calibri', sans-serif;
-    background-color: #1b1b1b;
+    background-color: #002941;
     color: #000;
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body{
 .menu ul{
     display: flex;
     justify-content: space-around;
-    background-color: #333;
+    background-color: #304b4b;
     padding: 1em;
     list-style-type: none;
 }
