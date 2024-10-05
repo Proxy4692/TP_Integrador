@@ -1,11 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vaporcito</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Vaporcito</h1>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="articulo.html">Articulos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="carrousel">
+        <button id="prev">◀</button>
+        <img id="carrouselImage" src="image1.jpg" alt="Imagen 1">
+        <button id="next">▶</button>
+    </section>
+    <script src="carrousel.js"></script>
 </body>
 </html>
