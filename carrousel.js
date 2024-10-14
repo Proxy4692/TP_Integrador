@@ -1,4 +1,4 @@
-const images = ['image1.jpg, image2.jpg, image3.jpg']
+const images = ['image1.jpeg', 'image2.jpeg', 'image3.jpeg']
 let currentIndex = 0
 
 const carrouselImage = document.getElementById('carrouselImage')
