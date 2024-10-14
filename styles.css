@@ -1,16 +1,17 @@
 body{
-    font-family: 'Calibri', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: rgb(39,48,55);
-    background: radial-gradient(circle, rgba(39,48,55,1) 90%, rgba(27,31,34,1) 100%)
-    color: #000;
+    background: radial-gradient(circle, rgba(39,48,55,1) 90%, rgb(43, 51, 57) 100%);
     margin: 0;
     padding: 0;
 }
 
 .menu ul{
+    font-size: larger;
+    font-weight: 500;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(114,160,193);
+    background-color: #72a0c1;
     background: linear-gradient(0deg, rgba(114,160,193,1) 0%, rgba(89,124,149,1) 100%);
     padding: 1em;
     list-style-type: none;
@@ -51,6 +52,27 @@ body{
     margin: 1em;
 }
 
-.contact-form{
+.contact-form {
+    border: 2px solid #ffffff36;
     margin: 2em;
+    padding: 20px;
+    margin:20px;
+    background-color: #ffffff21;
+    display:inline-block;
+    color:#fff;
+
+}
+.contact-form form{
+    text-align: right;
+    margin:0;
+}
+
+.cajacol{
+    background-color:#72a0c1;
+    padding:20px;
+    margin:10px;
+    border-radius: 2px;
+    display:inline-block;
+    color:#fff;
+
 }
