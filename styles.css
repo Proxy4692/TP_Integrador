@@ -14,7 +14,14 @@ body{
     background: linear-gradient(0deg, rgba(114,160,193,1) 0%, rgba(89,124,149,1) 100%);
     padding: 1em;
     list-style-type: none;
+    transition: background-color 0.3s ease;
 }
+
+.menu ul li a:hover{
+    color:#5fb5f8;
+}
+
+
 
 .menu a{
     color: #fff;
