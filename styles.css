@@ -1,6 +1,7 @@
 body{
     font-family: 'Calibri', sans-serif;
-    background-color: #002941;
+    background: rgb(62,55,55);
+    background: radial-gradient(circle, rgba(62,55,55,1) 9%, rgba(28,25,25,1) 100%);
     color: #000;
     margin: 0;
     padding: 0;
@@ -9,7 +10,8 @@ body{
 .menu ul{
     display: flex;
     justify-content: space-around;
-    background-color: #304b4b;
+    background: rgb(114,160,193);
+    background: linear-gradient(0deg, rgba(114,160,193,1) 0%, rgba(89,124,149,1) 100%);
     padding: 1em;
     list-style-type: none;
 }
