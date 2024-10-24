@@ -26,3 +26,7 @@ prevButton.addEventListener('click', () => {
     currentIndex = (currentIndex - 1 + images.length) % images.length
     carrouselImage.src = images[currentIndex]
 })
+
+carrouselImage.addEventListener('click', () => {
+    window.location.href = images[currentIndex].link
+})
