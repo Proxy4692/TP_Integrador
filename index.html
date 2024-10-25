@@ -9,22 +9,21 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></head>
     <body>
+        <class="container">
+        <nav class="nav-main">
+            <img src="Images/vaporcitoLogo.png" alt="Vaporcito Logo" class="nav-brand">
+            <ul class="nav-menu">
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="articulo.html">Articulos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
         <header>
-            <nav class="nav-main">
-                <img src="Images/vaporcitoLogo.png" alt="Vaporcito Logo" class="nav-brand">
-                <nav class="menu">
-                    <ul>
-                        <li><a href="index.html">Principal</a></li>
-                        <li><a href="articulo.html">Articulos</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-            </nav>
+            <section class="carrousel">
+                <button id="prev"></button>
+                <img id="carrouselImage" src= "https://cdn.cloudflare.steamstatic.com/steam/apps/632360/ss_2bb49071317f7b241a527cf6e7aabd2cb6af055b.600x338.jpg?t=1699992764" alt="carrousel">
+                <button id="next"></button>
+            <script src="carrousel.js"></script>
         </header>
-        <section class="carrousel">
-            <button id="prev"></button>
-            <img id="carrouselImage" src= "https://cdn.cloudflare.steamstatic.com/steam/apps/632360/ss_2bb49071317f7b241a527cf6e7aabd2cb6af055b.600x338.jpg?t=1699992764" alt="carrousel">
-            <button id="next"></button>
-        <script src="carrousel.js"></script>
     </body>
 </html>
