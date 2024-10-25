@@ -1,0 +1,4 @@
+verde #005A5A
+cyan #42EAD9
+violeta #600E81
+lila #9745E5
