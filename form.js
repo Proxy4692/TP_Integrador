@@ -5,6 +5,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     document.getElementById("emailError").textContent = "";
     document.getElementById("phoneError").textContent = "";
     document.getElementById("result").textContent = "";
+    document.getElementById("comment").textContent = "";
 
     const name = document.getElementById("name").value;
     if(name.trim() === "" || name.length > 50){
@@ -26,6 +27,12 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         return;
     }
 
+    const comment = document.getElementById("comment").value;
+    if(name.trim() === "" || name.length > 500){
+        document.getElementById("nameError").textContent = "El comentario debe tener menos de 500 caracteres.";
+        return;
+    }
+
     const resultDiv = document.getElementById("result");
     resultDiv.textContent = ""; //clean anterior
 
@@ -40,6 +47,10 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     const phoneElement = document.createElement("p");
     phoneElement.textContent = `Teléfono: ${phone}`;
     resultDiv.appendChild(phoneElement);
+
+    const commentElement = document.createElement("p");
+    commentElement.textContent = `Comment: ${comment}`;
+    resultDiv.appendChild(commentElement);
 
     resultDiv.style.color = "cyan";
 });

@@ -104,7 +104,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     color:#fff;
 }
 .box-form form{
-    text-align: right;
     margin: 0;
 }
 
@@ -118,13 +117,23 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     text-align: center;
 }
 
-.button{
+button{
+    margin-top: 5%;
     padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
+    background-color: #005A5A;
+    color: #fff;
+    border-color: #42EAD9;
     border-radius: 5px;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: #600E81;
+}
+
+.error{
+    color: red;
+    font-size: 0.9em;
 }
 
 .carrousel{
