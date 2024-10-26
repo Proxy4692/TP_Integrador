@@ -2,3 +2,5 @@ verde #005A5A
 cyan #42EAD9
 violeta #600E81
 lila #9745E5
+
+No quedo como esperaba, estaba usando live server por que verlo en github pages era muy tardado, y no quedo para nada igual, y tampoco toma la fuente que subi. F
