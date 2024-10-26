@@ -68,19 +68,30 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .articles-container{
+    margin-top: 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 5em;
 }
+
 .articles-container img{
     object-fit: cover;
     height: 300px;
 }
+
 .articles-column{
     flex: 1;
     margin: 1em;
 }
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
 .articles-image img{
     object-fit: cover;
     width: 300px;
